@@ -1,0 +1,11 @@
+package Com.program1;
+
+public class Chrom {
+
+	public static void main(String[] args) 
+	{
+		
+	System.setProperty("webdriver.chrom driver", "C:\Users\LENOVO\Downloads\chromedriver_win32 (1)chromdriver.exe");	
+		
+   webdriver driver=new chromdriver();
+

@@ -1,0 +1,16 @@
+package Com.program1;
+
+public class Chrom {
+
+	public static void main(String[] args) 
+	{
+		
+	String Key="webdriver.chrome driver";
+	String Value= ".\\chromedriver.exe";
+	System.setProperty(Key,Value);
+	WebDriver driver=new ChromeDriver();
+	
+		
+	}
+
+}
